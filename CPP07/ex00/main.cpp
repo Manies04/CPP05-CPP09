@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/31 17:18:09 by tiade-al          #+#    #+#             */
-/*   Updated: 2026/11/21 20:40:53 by tiade-al         ###   ########.fr       */
+/*   Updated: 2026/11/23 23:58:36 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,9 @@ int	main(void)
 
 	::swap(c, d);
 	std::cout << std::endl << "--- string ---" << std::endl;
-	std::cout << "a = " << c << ", b = " << d << std::endl;
-	std::cout << "min( a, b ) = " << ::min(c, d) << std::endl;
-	std::cout << "max( a, b ) = " << ::max(c, d) << std::endl;
+	std::cout << "c = " << c << ", d = " << d << std::endl;
+	std::cout << "min( c, d ) = " << ::min(c, d) << std::endl;
+	std::cout << "max( c, d ) = " << ::max(c, d) << std::endl;
 
 	int	x = 42;
 	int	y = 42;
